@@ -15,7 +15,7 @@ Dr. Gessner has his PhD in Physics/Chemistry and academic training in Medical Ph
 
 ## Eza Hafeza, MD
 
-Dr. Hafeza is Director, Clinical Terminology Services and Operations for the LOINC and Health Data Standards program within Regenstrief Institute.
+Dr. Hafeza is Director, Clinical Terminology Services for the Health Data Standards unit within Regenstrief Institute.
 
 ## William A. Hess, CAPT (ret.) USPHS
 
@@ -39,7 +39,7 @@ Anil Patel is a highly skilled Standards Specialist at Infoway, a renowned organ
 
 ## Marjorie Rallins, DPM
 
-Dr. Rallins is the Executive Director for the LOINC and Health Data Standards program within Regenstrief Institute.
+Dr. Rallins is the Executive Director for the Health Data Standards unit within Regenstrief Institute.
 
 ## Gunther Schadow, MD, PhD
 
