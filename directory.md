@@ -26,7 +26,7 @@ Standalone web interfaces, specialized REST/SOAP endpoints, and conversion utili
 
 * **NLM UCUM-LHC Tooling** — Interactive web form, REST/CSV API, and open-source code for validation and unit conversion ([ucum.nlm.nih.gov/ucum-lhc/](https://ucum.nlm.nih.gov/ucum-lhc/)).
 * **NLM ClinicalTables UCUM API** — REST endpoints (`/validate`, `/convert`, `/commensurable`) widely integrated into EHRs and research pipelines ([clinicaltables.nlm.nih.gov/apidoc/ucum/v3/](https://clinicaltables.nlm.nih.gov/apidoc/ucum/v3/)).
-* **XML4Pharma UCUM Web Services** — SOAP/REST web services maintained as a mirror of the NLM implementation ([xml4pharmaserver.com](https://xml4pharmaserver.com/.../UCUM_webservices.html)).
+* **XML4Pharma UCUM Web Services** — SOAP/REST web services maintained as a mirror of the NLM implementation ([xml4pharmaserver.com](http://xml4pharmaserver.com/WebServices/UCUM_webservices.html)).
 * **ucumate** — a developer-friendly Java library for working with units of measure based on the UCUM standard. At its core, it provides validation, canonicalization, conversion, and printing support with automatic caching. Optional features enable persistent database storage, mole-to-mass conversions, and high-precision calculation of conversion factors for special units. An [online demo](https://go.csiro.au/FwLink/ucumate-demo) is also available.
 * **Anton V. UCUM Validator** — Lightweight, single-page web tool for validating and converting UCUM expressions ([antvaset.com/ucum-validator](https://www.antvaset.com/ucum-validator)).
 * **University of Hawaiʻi ERDDAP Converter** — Specialized utility for converting between UDUNITS-1/-2 strings and UCUM expressions.
