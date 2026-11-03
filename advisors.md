@@ -3,7 +3,7 @@ title: Advisors
 post_excerpt: This small set of subject matter experts help guide UCUM's development.
 ---
 
-The Unified Code for Units of Measure was founded in 1999 by Gunther Schadow then under the supervision of Clement J. McDonald. For this reason, Gunther Schadow and Clem McDonald are ex-officio members of the UCUM Advisors. Other members of advisors have been recruited from a very small set of individuals who have over the years expressed interest and demonstrated expertise in the subject and have supported the UCUM project with their advice, advocacy, and expertise in the semantic domain of units of measures.
+The Unified Code for Units of Measure was founded in 1999 by Gunther Schadow then under the supervision of Clement J. McDonald. For this reason, Gunther Schadow is an ex-officio member of the UCUM Advisors, as was Clement McDonald until his passing in 2026. Other members of advisors have been recruited from a very small set of individuals who have over the years expressed interest and demonstrated expertise in the subject and have supported the UCUM project with their advice, advocacy, and expertise in the semantic domain of units of measures.
 
 ## Jozef Aerts, PhD
 
