@@ -5,9 +5,9 @@ post_excerpt: A directory of public APIs, terminology servers, and validation to
 
 > **Disclaimer & Notice:** The implementations, tools, and services listed below are provided solely for informational and community reference purposes. Regenstrief Institute, Inc. has not vetted, tested, audited, certified, or endorsed any third-party implementation, endpoint, or software listed in this directory. All information is provided **"AS IS"** without warranty of any kind, express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, operational availability, accuracy, or non-infringement. Inclusion in this directory does not constitute an endorsement, sponsorship, or recommendation by Regenstrief Institute. Users assume all risk, liability, and responsibility arising from the use of or reliance upon any third-party tool, service, or API referenced herein.
 
-## FHIR Terminology Servers
+## HL7 FHIR Terminology Servers
 
-The following FHIR servers host UCUM as a core code system and support programmatic validation (such as the `$validate-code` operation):
+The following HL7® FHIR® servers host UCUM as a core code system and support programmatic validation (such as the `$validate-code` operation):
 
 * **HL7 Global Terminology Server** (`tx.fhir.org`) — Reference FHIR R4 server with global UCUM validation support.
 * **HL7 Europe Terminology Server** (`tx.hl7europe.eu/r4`) — Pan-European reference FHIR server supporting UCUM validation.
