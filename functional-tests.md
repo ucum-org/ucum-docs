@@ -5,7 +5,7 @@ post_excerpt: A short summary to follow.
 
 The UCUM functional test corpus is maintained in the [FHIR/Ucum-java repository](https://github.com/FHIR/Ucum-java). You can [view the XML test file](https://github.com/FHIR/Ucum-java/blob/master/src/test/resources/UcumFunctionalTests.xml) or [download it directly](https://raw.githubusercontent.com/FHIR/Ucum-java/master/src/test/resources/UcumFunctionalTests.xml).
 
-Contributions and corrections to the test corpus are welcome through [GitHub issues](https://github.com/FHIR/Ucum-java/issues) or pull requests in that repository. Corrections to this documentation can be submitted to [ucum-org/ucum](https://github.com/ucum-org/ucum).
+Contributions and corrections to the test corpus are welcome through [GitHub issues](https://github.com/FHIR/Ucum-java/issues) or pull requests in that repository. Corrections to this documentation can be submitted to [ucum-org/ucum-doc](https://github.com/ucum-org/ucum-docs).
 
 ## Conformance
 
