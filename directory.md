@@ -5,6 +5,18 @@ post_excerpt: A directory of public APIs, terminology servers, and validation to
 
 > **Disclaimer & Notice:** The implementations, tools, and services listed below are provided solely for informational and community reference purposes. Regenstrief Institute, Inc. has not vetted, tested, audited, certified, or endorsed any third-party implementation, endpoint, or software listed in this directory. All information is provided **"AS IS"** without warranty of any kind, express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, operational availability, accuracy, or non-infringement. Inclusion in this directory does not constitute an endorsement, sponsorship, or recommendation by Regenstrief Institute. Users assume all risk, liability, and responsibility arising from the use of or reliance upon any third-party tool, service, or API referenced herein.
 
+## Interactive web tools and dedicated APIs
+
+Standalone web interfaces, specialized REST/SOAP endpoints, and conversion utilities:
+
+* **NLM UCUM-LHC Tooling** — Interactive web form, REST/CSV API, and open-source code for validation and unit conversion ([ucum.nlm.nih.gov/ucum-lhc/](https://ucum.nlm.nih.gov/ucum-lhc/)).
+* **NLM ClinicalTables UCUM API** — REST endpoints (`/validate`, `/convert`, `/commensurable`) widely integrated into EHRs and research pipelines ([clinicaltables.nlm.nih.gov/apidoc/ucum/v3/](https://clinicaltables.nlm.nih.gov/apidoc/ucum/v3/)).
+* **XML4Pharma UCUM Web Services** — SOAP/REST web services maintained as a mirror of the NLM implementation ([xml4pharmaserver.com](http://xml4pharmaserver.com/WebServices/UCUM_webservices.html)).
+* **ucumate** — a developer-friendly Java library for working with units of measure based on the UCUM standard. At its core, it provides validation, canonicalization, conversion, and printing support with automatic caching. Optional features enable persistent database storage, mole-to-mass conversions, and high-precision calculation of conversion factors for special units. An [online demo](https://go.csiro.au/FwLink/ucumate-demo) is also available.
+* **Anton V. UCUM Validator** — Lightweight, single-page web tool for validating and converting UCUM expressions ([antvaset.com/ucum-validator](https://www.antvaset.com/ucum-validator)).
+* **University of Hawaiʻi ERDDAP Converter** — Specialized utility for converting between UDUNITS-1/-2 strings and UCUM expressions.
+* **Data.gov UCUM Web API** — Federal catalog entry providing service metadata and SLA details for the NLM API endpoint.
+
 ## HL7 FHIR Terminology Servers
 
 The following HL7® FHIR® servers host UCUM as a core code system and support programmatic validation (such as the `$validate-code` operation):
@@ -20,19 +32,7 @@ The following HL7® FHIR® servers host UCUM as a core code system and support p
 * **Switzerland (HL7 CH Terminology Server)** (`tx.fhir.ch/r4`) — Terminology service supporting Swiss e-health profiles.
 * **United Kingdom (NHS England Terminology Server)** (`digital.nhs.uk/services/terminology-server`) — National FHIR server with UCUM validation support.
 
-## Interactive Web Tools & Dedicated APIs
-
-Standalone web interfaces, specialized REST/SOAP endpoints, and conversion utilities:
-
-* **NLM UCUM-LHC Tooling** — Interactive web form, REST/CSV API, and open-source code for validation and unit conversion ([ucum.nlm.nih.gov/ucum-lhc/](https://ucum.nlm.nih.gov/ucum-lhc/)).
-* **NLM ClinicalTables UCUM API** — REST endpoints (`/validate`, `/convert`, `/commensurable`) widely integrated into EHRs and research pipelines ([clinicaltables.nlm.nih.gov/apidoc/ucum/v3/](https://clinicaltables.nlm.nih.gov/apidoc/ucum/v3/)).
-* **XML4Pharma UCUM Web Services** — SOAP/REST web services maintained as a mirror of the NLM implementation ([xml4pharmaserver.com](http://xml4pharmaserver.com/WebServices/UCUM_webservices.html)).
-* **ucumate** — a developer-friendly Java library for working with units of measure based on the UCUM standard. At its core, it provides validation, canonicalization, conversion, and printing support with automatic caching. Optional features enable persistent database storage, mole-to-mass conversions, and high-precision calculation of conversion factors for special units. An [online demo](https://go.csiro.au/FwLink/ucumate-demo) is also available.
-* **Anton V. UCUM Validator** — Lightweight, single-page web tool for validating and converting UCUM expressions ([antvaset.com/ucum-validator](https://www.antvaset.com/ucum-validator)).
-* **University of Hawaiʻi ERDDAP Converter** — Specialized utility for converting between UDUNITS-1/-2 strings and UCUM expressions.
-* **Data.gov UCUM Web API** — Federal catalog entry providing service metadata and SLA details for the NLM API endpoint.
-
-## Implementation Notes
+## Notes
 
 1. **Access Credentials:** While most public web interfaces permit ad-hoc validation without login, high-volume programmatic calls on national terminology servers often require a free API key or account registration.
 2. **Underlying Libraries:** Most listed FHIR endpoints utilize the official UCUM Java library (embedded via Ontoserver or HAPI FHIR).
