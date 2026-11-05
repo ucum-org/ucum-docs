@@ -3,7 +3,7 @@ title: About UCUM Release Artifacts
 post_excerpt: An explanation of the files contained in the UCUM distribution
 ---
 The UCUM repository contains a number of files. This document aims to
-explain the purpose and origin of each, as of version 2.2 (June 2024).
+explain the purpose and origin of each, as of version 2.3 (November 2026).
 
 ## ucum-source.xml
 
